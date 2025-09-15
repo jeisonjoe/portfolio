@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Fruits",
+        "id":  1,
+        "children": [
+            {
+                "name":"Citrus",
+                "id":2,
+                "children":[
+                    {
+                        "name":"Orange",
+                        "id":3
+                    },
+                    {
+                        "name":"Lemon",
+                        "id":4
+                    }
+                ]
+            },
+            {
+                "name":"Berries",
+                "id":5,
+                "children":[
+                    {
+                        "name":"BlueBerry",
+                        "id":6
+                    },
+                    {
+                        "name":"StrawBerry",
+                        "id":7
+                    }
+                ]
+            },
+            {
+                "name":"Tropical",
+                "id":8,
+                "children":[
+                    {
+                        "name":"Mango",
+                        "id":10
+                    },
+                    {
+                        "name":"Watermelon",
+                        "id":11
+                    }
+                ]
+            },
+            {
+                "name":"Mango",
+                "id":9
+            }
+        ]
+    }
+]
