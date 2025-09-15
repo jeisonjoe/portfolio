@@ -16,7 +16,7 @@ export default function ProjectCards() {
       title: "Food App Landing Page",
       tags: ["React.js", "Framer Motion", "Scss"],
       desc: "Designed and developed a modern Landing page UI using Figma, React.js.",
-      url: "",
+      url: "https://food-app-topaz-zeta.vercel.app/",
       className: "w-2/4",
     },
     {
@@ -24,7 +24,7 @@ export default function ProjectCards() {
       tags: ["React.js", "Scss", "HTML", "Javascript", "Figma"],
       desc: "Designed and developed a modern Landing page UI using Figma, React.js.",
       className: "w-7/12",
-      url: "",
+      url: "https://officex-iota.vercel.app/",
     },
     {
       title: "Calculator",
