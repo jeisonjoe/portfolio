@@ -2,6 +2,8 @@
 
 import { gsap } from "@/app/lib/gsapConfig";
 import { useGSAP } from "@gsap/react";
+import Link from "next/link";
+import { GoArrowRight } from "react-icons/go";
 
 export default function MoveInProjectCard() {
   const projectDetails = {
@@ -71,7 +73,7 @@ export default function MoveInProjectCard() {
           );
         })}
       </div>
-      <div className="flex justify-between items-start">
+      <div className="flex justify-between items-start gap-6 max-xl:flex-col">
         <div className="flex flex-col gap-5 max-md:gap-3">
           <span className="overflow-hidden">
             <h3 className="text-slideup text-project-title font-inter text-3xl font-bold tracking-tight max-md:text-2xl">
@@ -96,6 +98,16 @@ export default function MoveInProjectCard() {
               {projectDetails.desc}
             </p>
           </span>
+        </div>
+        <div className="overflow-hidden">
+          <Link
+            className="text slideup flex gap-2 items-center px-4 py-2 text-sm text-sec rounded-full border border-zinc-200"
+            href={projectDetails.projectUrl}
+            target="_blank"
+          >
+            Visit Website
+            <GoArrowRight size={14} />
+          </Link>
         </div>
       </div>
     </div>
