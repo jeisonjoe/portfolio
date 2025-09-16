@@ -17,7 +17,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "Jeison Joe | Portfolio",
-  description: "",
+  description: "I am a Frontend Engineer/Web Developer based in India, creating digital experiences for the web.",
 };
 
 export default function RootLayout({ children }) {
