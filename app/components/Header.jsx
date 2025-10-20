@@ -6,11 +6,14 @@ import { navLinks } from "../util";
 
 export default function Header() {
   const pathname = usePathname();
-  const headerClass = pathname == "/gallery" ? "text-white" : "text-primary";
+  const headerClass =
+    pathname == "/gallery"
+      ? "text-white"
+      : "text-primary bg-white/10 header-blur";
 
   return (
     <header
-      className={`w-full h-fit p-8 px-16 z-[10] fixed top-0 left-0 ${headerClass} max-md:px-6 max-md:py-6 `}
+      className={`w-full h-fit p-8 px-16 z-[10] fixed top-0 left-0  ${headerClass} max-md:px-6 max-md:py-6 `}
     >
       <div className="flex justify-between items-center">
         <Link

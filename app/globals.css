@@ -1,31 +1,31 @@
 @import "tailwindcss";
 
-body{
+body {
   color: #000;
   background-color: #ffffff;
   max-width: 100vw;
   /* overflow-x: hidden; */
 }
 
-:root{
-  --color-primary: #34423A;
-  --color-sec: #9E9E9E;
+:root {
+  --color-primary: #34423a;
+  --color-sec: #9e9e9e;
 }
 
-@theme{
+@theme {
   --font-inter: "var(--font-inter)", "sans-serif";
-  --color-primary: #34423A;
-  --color-sec: #9E9E9E;
-  --color-sec-light: #C5C5C5;
-  --color-card-title : #8D9390;
-  --color-service-title: #5F6538;
-  --color-input: #F0F0F0;
+  --color-primary: #34423a;
+  --color-sec: #9e9e9e;
+  --color-sec-light: #c5c5c5;
+  --color-card-title: #8d9390;
+  --color-service-title: #5f6538;
+  --color-input: #f0f0f0;
   --color-btn: #274827;
-  --color-btn-hover: #394C39;
+  --color-btn-hover: #394c39;
   --color-footer-primary: #122411;
-  --color-footer-sec: #34423A;
-  --color-footer-light: #7E8280;
-  --color-footer-light-2: #D4D4D4;
+  --color-footer-sec: #34423a;
+  --color-footer-light: #7e8280;
+  --color-footer-light-2: #d4d4d4;
   --shadow-footer-card: 2px 4px 24px #000000a0;
   --shadow-footer-layer: 2px -4px 16px #00000030;
   --shadow-profile-image: -5px 5px 16px #00000055;
@@ -33,28 +33,32 @@ body{
 
   --color-img-bg: #f5f5f5;
   --color-project-title: #696969;
-  
-  --color-home-bg: #F9FAFC;
+
+  --color-home-bg: #f9fafc;
   --color-line: #eceff2;
   /* --color-line: #ced2d6; */
-  --color-accent: #8A9C00;
+  --color-accent: #8a9c00;
 }
 
-.side-heading{
-  @apply font-inter text-5xl font-extrabold text-primary tracking-tight max-md:text-4xl
+.side-heading {
+  @apply font-inter text-5xl font-extrabold text-primary tracking-tight max-md:text-4xl;
 }
 
-.chip{
-  @apply p-3 py-1 text-sm w-fit h-fit text-accent border border-accent/50 rounded-md max-md:text-xs
+.chip {
+  @apply p-3 py-1 text-sm w-fit h-fit text-accent border border-accent/50 rounded-md max-md:text-xs;
 }
 
-
-.link{
-  @apply font-medium text-shadow-footer-light underline underline-offset-3 decoration-zinc-400 hover:text-zinc-500 transition duration-300
+.link {
+  @apply font-medium text-shadow-footer-light underline underline-offset-3 decoration-zinc-400 hover:text-zinc-500 transition duration-300;
 }
 
-.contact-form-submit-button{
-  transition: scale 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+.contact-form-submit-button {
+  transition: scale 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.header-blur {
+  backdrop-filter: blur(4px);
 }
 
 /* .checkboxes{
