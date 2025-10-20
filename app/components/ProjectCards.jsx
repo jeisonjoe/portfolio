@@ -6,39 +6,46 @@ import { useRef } from "react";
 export default function ProjectCards() {
   const projects = [
     {
-      title: "E-Commerce App",
+      title: "E-Commerce App using Next.js and Firebase",
       tags: ["Next.js", "Firebase", "Tailwind", "Scss", "HeroUI"],
       desc: "Designed and developed an Ecommerce app with Admin Dashboard using Nextjs, Firebase and HeroUI.",
       url: "",
       className: "w-2/4",
     },
     {
-      title: "Food App Landing Page",
+      title: "MyHealthPrac - Landing page using Next.js & GSAP",
+      tags: ["Next.js", "GSAP", "Tailwind", "Scss"],
+      desc: `Tried to recreate the homepage and animations of myhealthprac.com using Next.js and GSAP`,
+      url: "",
+      className: "w-2/4",
+    },
+    {
+      title: "OfficeX Landing Page Design - React.js",
+      tags: ["React.js", "Scss", "HTML", "Javascript", "Figma"],
+      desc: "Designed and developed a modern Landing page UI using Figma, React.js.",
+      className: "w-2/4",
+      url: "https://officex-iota.vercel.app/",
+    },
+    {
+      title: "Food App Landing Page- React.js, Framer Motion",
       tags: ["React.js", "Framer Motion", "Scss"],
       desc: "Designed and developed a modern Landing page UI using Figma, React.js.",
       url: "https://food-app-topaz-zeta.vercel.app/",
       className: "w-2/4",
     },
     {
-      title: "OfficeX Landing Page Design",
-      tags: ["React.js", "Scss", "HTML", "Javascript", "Figma"],
-      desc: "Designed and developed a modern Landing page UI using Figma, React.js.",
-      className: "w-7/12",
-      url: "https://officex-iota.vercel.app/",
-    },
-    {
-      title: "Calculator",
+      title: "Calculator - HTML CSS JS",
       tags: ["HTML", "CSS", "Javascript"],
       desc: "A simple calculator app that makes use of HTML, CSS  and Javascript.",
       url: "https://noobcoderjoe.github.io/JeisonJoe-Portfolio/Projects/Calculator%20Reborn/index.html",
-      className: "w-5/12",
+      className: "w-7/12",
     },
     {
       title: "Iphone 11 Website Clone",
       tags: ["HTML", "CSS"],
       desc: "Webpage using HTML and CSS to gain hands on experience on building websites",
       url: "https://noobcoderjoe.github.io/JeisonJoe-Portfolio/Projects/iphone-11clone/index.html",
-      className: "w-2/4",
+      className: "w-5/12",
     },
     {
       title: "Iphone 14 Website Clone",
@@ -52,7 +59,7 @@ export default function ProjectCards() {
       tags: ["HTML", "CSS", "Javascript"],
       desc: "Webpage using HTML and CSS to gain hands on experience on building websites",
       url: "https://noobcoderjoe.github.io/JeisonJoe-Portfolio/Projects/modern/index.html",
-      className: "w-full",
+      className: "w-2/4",
     },
   ];
 
