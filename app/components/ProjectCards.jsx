@@ -16,7 +16,7 @@ export default function ProjectCards() {
       title: "MyHealthPrac - Landing page using Next.js & GSAP",
       tags: ["Next.js", "GSAP", "Tailwind", "Scss"],
       desc: `Tried to recreate the homepage and animations of myhealthprac.com using Next.js and GSAP`,
-      url: "",
+      url: "https://myhealthprac.vercel.app",
       className: "w-2/4",
     },
     {
